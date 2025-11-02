@@ -47,11 +47,17 @@ jsonpointer>=3.0.0
 jsonschema>=4.23.0
 jsonschema-specifications>=2025.4.1
 kiwisolver>=1.4.8
+langchain==0.3.27
 langchain-community>=0.3.17
 langchain-core>=0.3.61
+langchain-google-community==2.0.10
+langchain-google-genai==2.1.12
+langchain-huggingface==0.3.1
+langchain-mcp-adapters>=0.1.0  # LangChain MCP adapters for tool integration
 langchain-ollama>=0.3.3
 langchain-openai>=0.3.6
 langchain-text-splitters>=0.3.8
+langchain-zhipuai==0.0.1
 langgraph>=0.2.76
 langgraph-checkpoint>=2.0.26
 langgraph-cli>=0.2.10
@@ -127,5 +133,4 @@ zopfli>=0.2.3.post1
 zstandard>=0.23.0
 # Model Context Protocol support (optional)
 mcp>=1.0.0
-langchain-mcp-adapters>=0.1.0  # LangChain MCP adapters for tool integration
 tavily-python>=0.7.12
